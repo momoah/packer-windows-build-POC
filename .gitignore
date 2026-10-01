@@ -1,0 +1,8 @@
+# Ignore all ISO files
+*.iso
+*.log
+output-windows_soe/
+drivers/
+vms/
+installers/
+
