@@ -1,0 +1,3 @@
+#ps1_sysnative
+Add-Content C:\boot-log.txt "user-data ran at $(Get-Date -Format s)"
+exit 0

@@ -55,4 +55,9 @@ build {
     source      = "./unattend-clone.xml"
     destination = "C:/Windows/System32/Sysprep/unattend.xml"
   }
+
+  provisioner "file" {
+    source      = "./cloudbase-init/cloudbase-init.conf"
+    destination = "C:/Program Files/Cloudbase Solutions/Cloudbase-Init/conf/cloudbase-init.conf"
+  }
 }
